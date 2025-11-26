@@ -23,4 +23,4 @@ jobs:
         run: pip install ruff
 
       - name: Run Ruff lint and format check
-        run: ruff check strings-operations --exit-zero false
+        run: ruff check strings-operations 
